@@ -1,0 +1,4 @@
+/home/ubuntu/projects/webserver/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/projects/webserver/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/projects/webserver/build/CMakeFiles/client.dir
+/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir
