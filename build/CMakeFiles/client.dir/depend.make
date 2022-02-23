@@ -4,6 +4,13 @@
 CMakeFiles/client.dir/client.cpp.o: ../client.cpp
 CMakeFiles/client.dir/client.cpp.o: ../src/utils.h
 
+CMakeFiles/client.dir/src/Acceptor.cpp.o: ../src/Acceptor.cpp
+CMakeFiles/client.dir/src/Acceptor.cpp.o: ../src/Acceptor.h
+CMakeFiles/client.dir/src/Acceptor.cpp.o: ../src/Channel.h
+CMakeFiles/client.dir/src/Acceptor.cpp.o: ../src/InetAdress.h
+CMakeFiles/client.dir/src/Acceptor.cpp.o: ../src/Server.h
+CMakeFiles/client.dir/src/Acceptor.cpp.o: ../src/Socket.h
+
 CMakeFiles/client.dir/src/Channel.cpp.o: ../src/Channel.cpp
 CMakeFiles/client.dir/src/Channel.cpp.o: ../src/Channel.h
 CMakeFiles/client.dir/src/Channel.cpp.o: ../src/EventLoop.h
@@ -21,6 +28,7 @@ CMakeFiles/client.dir/src/EventLoop.cpp.o: ../src/EventLoop.h
 CMakeFiles/client.dir/src/InetAdress.cpp.o: ../src/InetAdress.cpp
 CMakeFiles/client.dir/src/InetAdress.cpp.o: ../src/InetAdress.h
 
+CMakeFiles/client.dir/src/Server.cpp.o: ../src/Acceptor.h
 CMakeFiles/client.dir/src/Server.cpp.o: ../src/Channel.h
 CMakeFiles/client.dir/src/Server.cpp.o: ../src/InetAdress.h
 CMakeFiles/client.dir/src/Server.cpp.o: ../src/Server.cpp

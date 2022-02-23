@@ -12,6 +12,24 @@ src/EventLoop.h
 src/Server.h
 /home/ubuntu/projects/webserver/src/Server.h
 
+/home/ubuntu/projects/webserver/src/Acceptor.cpp
+Acceptor.h
+/home/ubuntu/projects/webserver/src/Acceptor.h
+Socket.h
+/home/ubuntu/projects/webserver/src/Socket.h
+InetAdress.h
+/home/ubuntu/projects/webserver/src/InetAdress.h
+Channel.h
+/home/ubuntu/projects/webserver/src/Channel.h
+Server.h
+/home/ubuntu/projects/webserver/src/Server.h
+functional
+-
+
+/home/ubuntu/projects/webserver/src/Acceptor.h
+functional
+-
+
 /home/ubuntu/projects/webserver/src/Channel.cpp
 EventLoop.h
 /home/ubuntu/projects/webserver/src/EventLoop.h
@@ -24,36 +42,6 @@ functional
 sys/epoll.h
 -
 functional
--
-
-/home/ubuntu/projects/webserver/src/Epoll.cpp
-Epoll.h
-/home/ubuntu/projects/webserver/src/Epoll.h
-utils.h
-/home/ubuntu/projects/webserver/src/utils.h
-unistd.h
--
-string.h
--
-vector
--
-Channel.h
-/home/ubuntu/projects/webserver/src/Channel.h
-
-/home/ubuntu/projects/webserver/src/Epoll.h
-sys/epoll.h
--
-vector
--
-
-/home/ubuntu/projects/webserver/src/EventLoop.cpp
-EventLoop.h
-/home/ubuntu/projects/webserver/src/EventLoop.h
-Epoll.h
-/home/ubuntu/projects/webserver/src/Epoll.h
-Channel.h
-/home/ubuntu/projects/webserver/src/Channel.h
-vector
 -
 
 /home/ubuntu/projects/webserver/src/EventLoop.h
@@ -69,6 +57,8 @@ Socket.h
 /home/ubuntu/projects/webserver/src/Socket.h
 InetAdress.h
 /home/ubuntu/projects/webserver/src/InetAdress.h
+Acceptor.h
+/home/ubuntu/projects/webserver/src/Acceptor.h
 Channel.h
 /home/ubuntu/projects/webserver/src/Channel.h
 functional
@@ -81,6 +71,20 @@ string.h
 -
 
 /home/ubuntu/projects/webserver/src/Server.h
+
+/home/ubuntu/projects/webserver/src/Socket.cpp
+Socket.h
+/home/ubuntu/projects/webserver/src/Socket.h
+InetAdress.h
+/home/ubuntu/projects/webserver/src/InetAdress.h
+utils.h
+/home/ubuntu/projects/webserver/src/utils.h
+unistd.h
+-
+sys/socket.h
+-
+fcntl.h
+-
 
 /home/ubuntu/projects/webserver/src/Socket.h
 
