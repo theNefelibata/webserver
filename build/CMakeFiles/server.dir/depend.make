@@ -16,6 +16,11 @@ CMakeFiles/server.dir/src/Channel.cpp.o: ../src/Channel.cpp
 CMakeFiles/server.dir/src/Channel.cpp.o: ../src/Channel.h
 CMakeFiles/server.dir/src/Channel.cpp.o: ../src/EventLoop.h
 
+CMakeFiles/server.dir/src/Connection.cpp.o: ../src/Channel.h
+CMakeFiles/server.dir/src/Connection.cpp.o: ../src/Connection.cpp
+CMakeFiles/server.dir/src/Connection.cpp.o: ../src/Connection.h
+CMakeFiles/server.dir/src/Connection.cpp.o: ../src/Socket.h
+
 CMakeFiles/server.dir/src/Epoll.cpp.o: ../src/Channel.h
 CMakeFiles/server.dir/src/Epoll.cpp.o: ../src/Epoll.cpp
 CMakeFiles/server.dir/src/Epoll.cpp.o: ../src/Epoll.h
@@ -31,6 +36,7 @@ CMakeFiles/server.dir/src/InetAdress.cpp.o: ../src/InetAdress.h
 
 CMakeFiles/server.dir/src/Server.cpp.o: ../src/Acceptor.h
 CMakeFiles/server.dir/src/Server.cpp.o: ../src/Channel.h
+CMakeFiles/server.dir/src/Server.cpp.o: ../src/Connection.h
 CMakeFiles/server.dir/src/Server.cpp.o: ../src/InetAdress.h
 CMakeFiles/server.dir/src/Server.cpp.o: ../src/Server.cpp
 CMakeFiles/server.dir/src/Server.cpp.o: ../src/Server.h

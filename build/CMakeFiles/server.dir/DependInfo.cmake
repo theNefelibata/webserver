@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/projects/webserver/server.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/server.cpp.o"
   "/home/ubuntu/projects/webserver/src/Acceptor.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/Acceptor.cpp.o"
   "/home/ubuntu/projects/webserver/src/Channel.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/Channel.cpp.o"
+  "/home/ubuntu/projects/webserver/src/Connection.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/Connection.cpp.o"
   "/home/ubuntu/projects/webserver/src/Epoll.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/Epoll.cpp.o"
   "/home/ubuntu/projects/webserver/src/EventLoop.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/EventLoop.cpp.o"
   "/home/ubuntu/projects/webserver/src/InetAdress.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/InetAdress.cpp.o"

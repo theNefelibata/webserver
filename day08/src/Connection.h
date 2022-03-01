@@ -1,8 +1,8 @@
 /*************************************************************************
-	> File Name: Acceptor.h
+	> File Name: Connection.h
 	> Author: Nefelibata
 	> Mail: csehuyi@whu.edu.cn 
-	> Created Time: Thu 27 Jan 2022 09:22:38 PM CST
+	> Created Time: Wed 23 Feb 2022 09:27:08 PM CST
  ************************************************************************/
 
 #pragma once
@@ -10,19 +10,18 @@
 
 class EventLoop;
 class Socket;
-class InetAdress;
 class Channel;
-class Acceptor{
+class Connection{
 private:
 	EventLoop *loop;
 	Socket *sock;
-	Channel* acceptChannel;
-	std::function<void(Socket*)> newConnectionCallback;
+	Channel *channel;
+	std::function<void(Socket*)> deleteConnectionCallback;
 
 public:
-	Acceptor(EventLoop*);
-	~Acceptor();
-	void acceptConnection();
-	void setNewConnectionCallback(std::function<void(Socket*)>);
-
+	Connection(EventLoop *_loop, Socket *_sock);
+	~Connection();
+	
+	void echo(int sockfd);
+	void setdeleteConnectionCallback(std::function<void(Socket*)>);
 };

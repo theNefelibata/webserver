@@ -15,6 +15,11 @@ CMakeFiles/client.dir/src/Channel.cpp.o
  /home/ubuntu/projects/webserver/src/Channel.cpp
  /home/ubuntu/projects/webserver/src/Channel.h
  /home/ubuntu/projects/webserver/src/EventLoop.h
+CMakeFiles/client.dir/src/Connection.cpp.o
+ /home/ubuntu/projects/webserver/src/Channel.h
+ /home/ubuntu/projects/webserver/src/Connection.cpp
+ /home/ubuntu/projects/webserver/src/Connection.h
+ /home/ubuntu/projects/webserver/src/Socket.h
 CMakeFiles/client.dir/src/Epoll.cpp.o
  /home/ubuntu/projects/webserver/src/Channel.h
  /home/ubuntu/projects/webserver/src/Epoll.cpp
@@ -31,6 +36,7 @@ CMakeFiles/client.dir/src/InetAdress.cpp.o
 CMakeFiles/client.dir/src/Server.cpp.o
  /home/ubuntu/projects/webserver/src/Acceptor.h
  /home/ubuntu/projects/webserver/src/Channel.h
+ /home/ubuntu/projects/webserver/src/Connection.h
  /home/ubuntu/projects/webserver/src/InetAdress.h
  /home/ubuntu/projects/webserver/src/Server.cpp
  /home/ubuntu/projects/webserver/src/Server.h

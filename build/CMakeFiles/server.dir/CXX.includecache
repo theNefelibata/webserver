@@ -30,21 +30,37 @@ functional
 functional
 -
 
-/home/ubuntu/projects/webserver/src/Channel.cpp
-EventLoop.h
-/home/ubuntu/projects/webserver/src/EventLoop.h
-Channel.h
-/home/ubuntu/projects/webserver/src/Channel.h
-functional
--
-
 /home/ubuntu/projects/webserver/src/Channel.h
 sys/epoll.h
 -
 functional
 -
 
+/home/ubuntu/projects/webserver/src/Connection.cpp
+Connection.h
+/home/ubuntu/projects/webserver/src/Connection.h
+Socket.h
+/home/ubuntu/projects/webserver/src/Socket.h
+Channel.h
+/home/ubuntu/projects/webserver/src/Channel.h
+functional
+-
+unistd.h
+-
+string.h
+-
+
+/home/ubuntu/projects/webserver/src/Connection.h
+functional
+-
+
 /home/ubuntu/projects/webserver/src/EventLoop.h
+
+/home/ubuntu/projects/webserver/src/InetAdress.cpp
+InetAdress.h
+/home/ubuntu/projects/webserver/src/InetAdress.h
+string.h
+-
 
 /home/ubuntu/projects/webserver/src/InetAdress.h
 arpa/inet.h
@@ -61,6 +77,8 @@ Acceptor.h
 /home/ubuntu/projects/webserver/src/Acceptor.h
 Channel.h
 /home/ubuntu/projects/webserver/src/Channel.h
+Connection.h
+/home/ubuntu/projects/webserver/src/Connection.h
 functional
 -
 sys/socket.h
@@ -71,6 +89,8 @@ string.h
 -
 
 /home/ubuntu/projects/webserver/src/Server.h
+map
+-
 
 /home/ubuntu/projects/webserver/src/Socket.cpp
 Socket.h
@@ -84,6 +104,8 @@ unistd.h
 sys/socket.h
 -
 fcntl.h
+-
+string.h
 -
 
 /home/ubuntu/projects/webserver/src/Socket.h
