@@ -11,14 +11,19 @@ CMakeFiles/client.dir/src/Acceptor.cpp.o: ../src/InetAdress.h
 CMakeFiles/client.dir/src/Acceptor.cpp.o: ../src/Server.h
 CMakeFiles/client.dir/src/Acceptor.cpp.o: ../src/Socket.h
 
+CMakeFiles/client.dir/src/Buffer.cpp.o: ../src/Buffer.cpp
+CMakeFiles/client.dir/src/Buffer.cpp.o: ../src/Buffer.h
+
 CMakeFiles/client.dir/src/Channel.cpp.o: ../src/Channel.cpp
 CMakeFiles/client.dir/src/Channel.cpp.o: ../src/Channel.h
 CMakeFiles/client.dir/src/Channel.cpp.o: ../src/EventLoop.h
 
+CMakeFiles/client.dir/src/Connection.cpp.o: ../src/Buffer.h
 CMakeFiles/client.dir/src/Connection.cpp.o: ../src/Channel.h
 CMakeFiles/client.dir/src/Connection.cpp.o: ../src/Connection.cpp
 CMakeFiles/client.dir/src/Connection.cpp.o: ../src/Connection.h
 CMakeFiles/client.dir/src/Connection.cpp.o: ../src/Socket.h
+CMakeFiles/client.dir/src/Connection.cpp.o: ../src/utils.h
 
 CMakeFiles/client.dir/src/Epoll.cpp.o: ../src/Channel.h
 CMakeFiles/client.dir/src/Epoll.cpp.o: ../src/Epoll.cpp

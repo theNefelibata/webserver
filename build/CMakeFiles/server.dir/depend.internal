@@ -12,15 +12,20 @@ CMakeFiles/server.dir/src/Acceptor.cpp.o
  /home/ubuntu/projects/webserver/src/InetAdress.h
  /home/ubuntu/projects/webserver/src/Server.h
  /home/ubuntu/projects/webserver/src/Socket.h
+CMakeFiles/server.dir/src/Buffer.cpp.o
+ /home/ubuntu/projects/webserver/src/Buffer.cpp
+ /home/ubuntu/projects/webserver/src/Buffer.h
 CMakeFiles/server.dir/src/Channel.cpp.o
  /home/ubuntu/projects/webserver/src/Channel.cpp
  /home/ubuntu/projects/webserver/src/Channel.h
  /home/ubuntu/projects/webserver/src/EventLoop.h
 CMakeFiles/server.dir/src/Connection.cpp.o
+ /home/ubuntu/projects/webserver/src/Buffer.h
  /home/ubuntu/projects/webserver/src/Channel.h
  /home/ubuntu/projects/webserver/src/Connection.cpp
  /home/ubuntu/projects/webserver/src/Connection.h
  /home/ubuntu/projects/webserver/src/Socket.h
+ /home/ubuntu/projects/webserver/src/utils.h
 CMakeFiles/server.dir/src/Epoll.cpp.o
  /home/ubuntu/projects/webserver/src/Channel.h
  /home/ubuntu/projects/webserver/src/Epoll.cpp

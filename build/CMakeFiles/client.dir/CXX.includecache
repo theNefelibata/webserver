@@ -6,24 +6,40 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/projects/webserver/src/InetAdress.h
-arpa/inet.h
+/home/ubuntu/projects/webserver/src/Buffer.h
+string
 -
 
-/home/ubuntu/projects/webserver/src/Socket.cpp
+/home/ubuntu/projects/webserver/src/Channel.h
+sys/epoll.h
+-
+functional
+-
+
+/home/ubuntu/projects/webserver/src/Connection.cpp
+Connection.h
+/home/ubuntu/projects/webserver/src/Connection.h
 Socket.h
 /home/ubuntu/projects/webserver/src/Socket.h
-InetAdress.h
-/home/ubuntu/projects/webserver/src/InetAdress.h
+Channel.h
+/home/ubuntu/projects/webserver/src/Channel.h
+Buffer.h
+/home/ubuntu/projects/webserver/src/Buffer.h
 utils.h
 /home/ubuntu/projects/webserver/src/utils.h
+functional
+-
 unistd.h
 -
-sys/socket.h
--
-fcntl.h
--
 string.h
+-
+iostream
+-
+
+/home/ubuntu/projects/webserver/src/Connection.h
+functional
+-
+string
 -
 
 /home/ubuntu/projects/webserver/src/Socket.h

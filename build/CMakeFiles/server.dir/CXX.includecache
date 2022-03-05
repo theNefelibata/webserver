@@ -6,28 +6,22 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/projects/webserver/server.cpp
-src/EventLoop.h
-/home/ubuntu/projects/webserver/src/EventLoop.h
-src/Server.h
-/home/ubuntu/projects/webserver/src/Server.h
-
-/home/ubuntu/projects/webserver/src/Acceptor.cpp
-Acceptor.h
 /home/ubuntu/projects/webserver/src/Acceptor.h
-Socket.h
-/home/ubuntu/projects/webserver/src/Socket.h
-InetAdress.h
-/home/ubuntu/projects/webserver/src/InetAdress.h
-Channel.h
-/home/ubuntu/projects/webserver/src/Channel.h
-Server.h
-/home/ubuntu/projects/webserver/src/Server.h
 functional
 -
 
-/home/ubuntu/projects/webserver/src/Acceptor.h
-functional
+/home/ubuntu/projects/webserver/src/Buffer.cpp
+Buffer.h
+/home/ubuntu/projects/webserver/src/Buffer.h
+string.h
+-
+iostream
+-
+string
+-
+
+/home/ubuntu/projects/webserver/src/Buffer.h
+string
 -
 
 /home/ubuntu/projects/webserver/src/Channel.h
@@ -43,23 +37,23 @@ Socket.h
 /home/ubuntu/projects/webserver/src/Socket.h
 Channel.h
 /home/ubuntu/projects/webserver/src/Channel.h
+Buffer.h
+/home/ubuntu/projects/webserver/src/Buffer.h
+utils.h
+/home/ubuntu/projects/webserver/src/utils.h
 functional
 -
 unistd.h
 -
 string.h
 -
+iostream
+-
 
 /home/ubuntu/projects/webserver/src/Connection.h
 functional
 -
-
-/home/ubuntu/projects/webserver/src/EventLoop.h
-
-/home/ubuntu/projects/webserver/src/InetAdress.cpp
-InetAdress.h
-/home/ubuntu/projects/webserver/src/InetAdress.h
-string.h
+string
 -
 
 /home/ubuntu/projects/webserver/src/InetAdress.h
@@ -90,22 +84,6 @@ string.h
 
 /home/ubuntu/projects/webserver/src/Server.h
 map
--
-
-/home/ubuntu/projects/webserver/src/Socket.cpp
-Socket.h
-/home/ubuntu/projects/webserver/src/Socket.h
-InetAdress.h
-/home/ubuntu/projects/webserver/src/InetAdress.h
-utils.h
-/home/ubuntu/projects/webserver/src/utils.h
-unistd.h
--
-sys/socket.h
--
-fcntl.h
--
-string.h
 -
 
 /home/ubuntu/projects/webserver/src/Socket.h

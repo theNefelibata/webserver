@@ -83,9 +83,22 @@ CMakeFiles/client.dir/src/Acceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Acceptor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/projects/webserver/src/Acceptor.cpp -o CMakeFiles/client.dir/src/Acceptor.cpp.s
 
+CMakeFiles/client.dir/src/Buffer.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/Buffer.cpp.o: ../src/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/src/Buffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Buffer.cpp.o -c /home/ubuntu/projects/webserver/src/Buffer.cpp
+
+CMakeFiles/client.dir/src/Buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Buffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/projects/webserver/src/Buffer.cpp > CMakeFiles/client.dir/src/Buffer.cpp.i
+
+CMakeFiles/client.dir/src/Buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Buffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/projects/webserver/src/Buffer.cpp -o CMakeFiles/client.dir/src/Buffer.cpp.s
+
 CMakeFiles/client.dir/src/Channel.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/Channel.cpp.o: ../src/Channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/src/Channel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/client.dir/src/Channel.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Channel.cpp.o -c /home/ubuntu/projects/webserver/src/Channel.cpp
 
 CMakeFiles/client.dir/src/Channel.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/client.dir/src/Channel.cpp.s: cmake_force
 
 CMakeFiles/client.dir/src/Connection.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/Connection.cpp.o: ../src/Connection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/client.dir/src/Connection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/client.dir/src/Connection.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Connection.cpp.o -c /home/ubuntu/projects/webserver/src/Connection.cpp
 
 CMakeFiles/client.dir/src/Connection.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/client.dir/src/Connection.cpp.s: cmake_force
 
 CMakeFiles/client.dir/src/Epoll.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/Epoll.cpp.o: ../src/Epoll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/client.dir/src/Epoll.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/client.dir/src/Epoll.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Epoll.cpp.o -c /home/ubuntu/projects/webserver/src/Epoll.cpp
 
 CMakeFiles/client.dir/src/Epoll.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/client.dir/src/Epoll.cpp.s: cmake_force
 
 CMakeFiles/client.dir/src/EventLoop.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/EventLoop.cpp.o: ../src/EventLoop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/client.dir/src/EventLoop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/client.dir/src/EventLoop.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/EventLoop.cpp.o -c /home/ubuntu/projects/webserver/src/EventLoop.cpp
 
 CMakeFiles/client.dir/src/EventLoop.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/client.dir/src/EventLoop.cpp.s: cmake_force
 
 CMakeFiles/client.dir/src/InetAdress.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/InetAdress.cpp.o: ../src/InetAdress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/client.dir/src/InetAdress.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/client.dir/src/InetAdress.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/InetAdress.cpp.o -c /home/ubuntu/projects/webserver/src/InetAdress.cpp
 
 CMakeFiles/client.dir/src/InetAdress.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/client.dir/src/InetAdress.cpp.s: cmake_force
 
 CMakeFiles/client.dir/src/Server.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/Server.cpp.o: ../src/Server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/client.dir/src/Server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/client.dir/src/Server.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Server.cpp.o -c /home/ubuntu/projects/webserver/src/Server.cpp
 
 CMakeFiles/client.dir/src/Server.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/client.dir/src/Server.cpp.s: cmake_force
 
 CMakeFiles/client.dir/src/Socket.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/Socket.cpp.o: ../src/Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/client.dir/src/Socket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/client.dir/src/Socket.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Socket.cpp.o -c /home/ubuntu/projects/webserver/src/Socket.cpp
 
 CMakeFiles/client.dir/src/Socket.cpp.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/client.dir/src/Socket.cpp.s: cmake_force
 
 CMakeFiles/client.dir/src/utils.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/utils.cpp.o: ../src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/client.dir/src/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/client.dir/src/utils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/utils.cpp.o -c /home/ubuntu/projects/webserver/src/utils.cpp
 
 CMakeFiles/client.dir/src/utils.cpp.i: cmake_force
@@ -191,6 +204,7 @@ CMakeFiles/client.dir/src/utils.cpp.s: cmake_force
 client_OBJECTS = \
 "CMakeFiles/client.dir/client.cpp.o" \
 "CMakeFiles/client.dir/src/Acceptor.cpp.o" \
+"CMakeFiles/client.dir/src/Buffer.cpp.o" \
 "CMakeFiles/client.dir/src/Channel.cpp.o" \
 "CMakeFiles/client.dir/src/Connection.cpp.o" \
 "CMakeFiles/client.dir/src/Epoll.cpp.o" \
@@ -205,6 +219,7 @@ client_EXTERNAL_OBJECTS =
 
 client: CMakeFiles/client.dir/client.cpp.o
 client: CMakeFiles/client.dir/src/Acceptor.cpp.o
+client: CMakeFiles/client.dir/src/Buffer.cpp.o
 client: CMakeFiles/client.dir/src/Channel.cpp.o
 client: CMakeFiles/client.dir/src/Connection.cpp.o
 client: CMakeFiles/client.dir/src/Epoll.cpp.o
@@ -215,7 +230,7 @@ client: CMakeFiles/client.dir/src/Socket.cpp.o
 client: CMakeFiles/client.dir/src/utils.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/projects/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

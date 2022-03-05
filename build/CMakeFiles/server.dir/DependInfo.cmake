@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/projects/webserver/server.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/server.cpp.o"
   "/home/ubuntu/projects/webserver/src/Acceptor.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/Acceptor.cpp.o"
+  "/home/ubuntu/projects/webserver/src/Buffer.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/Buffer.cpp.o"
   "/home/ubuntu/projects/webserver/src/Channel.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/Channel.cpp.o"
   "/home/ubuntu/projects/webserver/src/Connection.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/Connection.cpp.o"
   "/home/ubuntu/projects/webserver/src/Epoll.cpp" "/home/ubuntu/projects/webserver/build/CMakeFiles/server.dir/src/Epoll.cpp.o"
